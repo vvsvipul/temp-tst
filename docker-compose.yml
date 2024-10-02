@@ -8,7 +8,7 @@ services:
       - "4000:27017"
 
   nodejs:
-    image: major1:node_app
+    image: vvsvipul/major1
     container_name: nodejs
     environment:
       - DB=mongodb://mongodb:27017
@@ -19,7 +19,7 @@ services:
       - mongodb
       - gboost
   gboost:
-    image: gboost
+    image: vvsvipul/gboost
     container_name: gboost
     ports:
       - "5000:5000"
