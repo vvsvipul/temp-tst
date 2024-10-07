@@ -89,7 +89,7 @@ spec:
     spec:
       containers:
       - name: gboost
-        image: vvsvipul/gboost:v1
+        image: vvsvipul/gboost:v1.0
         imagePullPolicy: IfNotPresent
         ports:
         - containerPort: 5000
