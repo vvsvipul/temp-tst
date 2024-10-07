@@ -47,7 +47,7 @@ spec:
     spec:
       containers:
       - name: nodejs
-        image: major1:node_app
+        image: vvsvipul/major1:v1.0
         ports:
         - containerPort: 8080
         env:
@@ -89,7 +89,7 @@ spec:
     spec:
       containers:
       - name: gboost
-        image: gboost:latest
+        image: vvsvipul/gboost:v1
         imagePullPolicy: IfNotPresent
         ports:
         - containerPort: 5000
